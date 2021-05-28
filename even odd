@@ -1,0 +1,10 @@
+
+d = int(input( 'Enter the value-'))
+
+if d == 0:
+    print('Please enter the valid number')
+elif d%2 == 0:
+    print( 'Value in even')
+
+else:
+    print ("Value is odd")
