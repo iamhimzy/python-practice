@@ -4,7 +4,6 @@ animal={
     "cow": ["Herbivores","innocent"],
  }
 
-
 a=input("Animal name - ")
 b=input("name property -")
 
