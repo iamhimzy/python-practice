@@ -1,5 +1,9 @@
-#data = [1,3,None,4,5,None,7,8,None,10,11,None]
+data = [1,3,None,4,5,None,7,8,None,10,11,None]
 
-d = [1,None,3]
-d.clear(0:2)
-print (d)
+new_list = []
+
+for x in data:
+    if x != None and x >= 5 and x%2==0:
+        new_list.append(x)
+
+print(new_list)
